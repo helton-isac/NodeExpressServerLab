@@ -1,0 +1,16 @@
+{
+  "name": "projetoestudo",
+  "version": "1.0.0",
+  "description": "Estudo Express com Node Js, MongoDB, Mongose",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJs",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Helton Isac",
+  "license": "ISC"
+}
