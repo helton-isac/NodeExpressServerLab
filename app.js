@@ -1,6 +1,6 @@
 // Create a secrets.js file and export your mongo_url like this:
 // const MONGO_URL =
-//   "mongodb+srv://helton:mXgP1C4PsvsCcTbH@cluster0.onwqw.mongodb.net/banco?retryWrites=true&w=majority";
+//   "mongodb+srv://user:password@cluster0.onwqw.mongodb.net/banco?retryWrites=true&w=majority";
 
 // module.exports = {
 //   MONGO_URL: MONGO_URL,
