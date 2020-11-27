@@ -15,7 +15,8 @@
   "author": "Helton Isac",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.16"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
