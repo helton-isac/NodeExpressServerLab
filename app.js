@@ -22,7 +22,7 @@ app.put("/atualizar/:id",(req,res)=>{
     res.status(200).send({rs:"você está no método Put"})
 })
 
-app.put("/delete/:id",(req,res)=>{
+app.delete("/apagar/:id",(req,res)=>{
     // A resposta não será exibida por conta do status 204 - No Content
     res.status(204).send({rs:"você está no método Delete"})
 })
