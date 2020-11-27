@@ -8,8 +8,32 @@ const bodyParser = require("body-parser");
 const app = express();
 
 app.get("/",(req,res)=>{
+    // 200 - Success
     res.status(200).send({rs:"você está no método Get"})
-}) 
+})
+
+app.post("/cadastro",(req,res)=>{
+    // 201 - Created
+    res.status(201).send({rs:"você está no método Post"})
+})
+
+app.put("/atualizar/:id",(req,res)=>{
+    // 200 - Success
+    res.status(200).send({rs:"você está no método Put"})
+})
+
+app.put("/delete/:id",(req,res)=>{
+    // A resposta não será exibida por conta do status 204 - No Content
+    res.status(204).send({rs:"você está no método Delete"})
+})
+
+// Vamos adicionar um tratamento ao erro de requisição inexistente, ou seja, o erro 404
+app.use((req,res)=>{
+    res.type('application/json');
+    res.status(404).send({erro:"404 - Página não encontrada"})
+})
+
+
 
 app.listen(3000)
 
